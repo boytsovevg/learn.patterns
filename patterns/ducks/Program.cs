@@ -1,4 +1,5 @@
 ﻿using System;
+using ducks.ducks;
 
 namespace ducks
 {
@@ -6,9 +7,14 @@ namespace ducks
     {
         static void Main(string[] args)
         {
-            Duck duck = new MallardDuck();
+            MallardDuck mallard = new MallardDuck();
+            RedheadDuck redhead = new RedheadDuck();
+            RubberDuck rubber = new RubberDuck();
+            DecoyDuck decoy = new DecoyDuck();
             
-            Console.WriteLine(duck.Display());
+            mallard.Quack();
+            redhead.Quack();
+            rubber.Quack();
         }
     }
 }
