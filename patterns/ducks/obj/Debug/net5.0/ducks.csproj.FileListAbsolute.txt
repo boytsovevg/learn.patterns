@@ -1,0 +1,15 @@
+/Users/boytsovevg/github/patterns/patterns/ducks/bin/Debug/net5.0/ducks.deps.json
+/Users/boytsovevg/github/patterns/patterns/ducks/bin/Debug/net5.0/ducks.runtimeconfig.json
+/Users/boytsovevg/github/patterns/patterns/ducks/bin/Debug/net5.0/ducks.runtimeconfig.dev.json
+/Users/boytsovevg/github/patterns/patterns/ducks/bin/Debug/net5.0/ducks.dll
+/Users/boytsovevg/github/patterns/patterns/ducks/bin/Debug/net5.0/ref/ducks.dll
+/Users/boytsovevg/github/patterns/patterns/ducks/bin/Debug/net5.0/ducks.pdb
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.csprojAssemblyReference.cache
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.GeneratedMSBuildEditorConfig.editorconfig
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.AssemblyInfoInputs.cache
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.AssemblyInfo.cs
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.csproj.CoreCompileInputs.cache
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.dll
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ref/ducks.dll
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.pdb
+/Users/boytsovevg/github/patterns/patterns/ducks/obj/Debug/net5.0/ducks.genruntimeconfig.cache
