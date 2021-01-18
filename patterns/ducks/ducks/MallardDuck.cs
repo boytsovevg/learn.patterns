@@ -1,22 +1,12 @@
-using System;
-using ducks.bahavoir;
+using ducks.fly;
+using ducks.quack;
 
 namespace ducks.ducks
 {
-    public class MallardDuck: Duck, IFlyable, IQuackable
+    public class MallardDuck: Duck
     {
-        public MallardDuck(): base("Mallard Duck")
+        public MallardDuck(): base("Mallard Duck", new FlyWithWings(), new Quack())
         {
-        }
-
-        public void Fly()
-        {
-            Console.WriteLine($"{this.Name}: I can Fly");
-        }
-
-        public void Quack()
-        {
-            Console.WriteLine($"{this.Name}: QUAAACK!");
         }
     }
 }

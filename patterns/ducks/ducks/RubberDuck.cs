@@ -1,18 +1,12 @@
-using System;
-using ducks.bahavoir;
+using ducks.fly;
+using ducks.quack;
 
 namespace ducks.ducks
 {
-    public class RubberDuck: Duck, IQuackable
+    public class RubberDuck: Duck
     {
-        public RubberDuck(): base("RubberDuck")
+        public RubberDuck(): base("RubberDuck", new FlyNoWay(), new Squeak())
         {
-            
-        }
-
-        public void Quack()
-        {
-            Console.Write($"{this.Name}: --Quack--");
         }
     }
 }

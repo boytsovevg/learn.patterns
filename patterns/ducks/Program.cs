@@ -1,5 +1,4 @@
-﻿using System;
-using ducks.ducks;
+﻿using ducks.ducks;
 
 namespace ducks
 {

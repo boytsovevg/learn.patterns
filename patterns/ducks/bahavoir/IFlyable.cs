@@ -2,6 +2,6 @@ namespace ducks.bahavoir
 {
     public interface IFlyable
     {
-        void Fly();
+        void FlyAction();
     }
 }
