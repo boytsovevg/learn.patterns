@@ -3,11 +3,11 @@ using ducks.bahavoir;
 
 namespace ducks.fly
 {
-    public class FlyNoWay: IFlyable
+    public class FlyRocketPowered: IFlyable
     {
         public void FlyAction()
         {
-            Console.WriteLine("I can not fly :(");
+            Console.WriteLine("I have got Elon Musk power!!! =====>");
         }
     }
 }

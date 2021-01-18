@@ -1,11 +1,12 @@
+using System;
 using ducks.bahavoir;
 
 namespace ducks.ducks
 {
     public class Duck
     {
-        private readonly IFlyable _flyBehavior;
-        private readonly IQuackable _quackBehavior;
+        private IFlyable _flyBehavior;
+        private IQuackable _quackBehavior;
         private string Name { get; }
 
         public Duck(string name, IFlyable flyBehavior, IQuackable quackBehavior)
@@ -13,11 +14,23 @@ namespace ducks.ducks
             this.Name = name;
             this._flyBehavior = flyBehavior;
             this._quackBehavior = quackBehavior;
+            
+            this.Display();
         }
 
-        public string Display()
+        public void SetFlyBehavior(IFlyable behavior)
         {
-            return $"I am {this.Name}";
+            this._flyBehavior = behavior;
+        }
+
+        public void SetQuackBehavior(IQuackable behavior)
+        {
+            this._quackBehavior = behavior;
+        }
+
+        public void Display()
+        {
+            Console.WriteLine($"I am {this.Name}");
         }
 
         public void Fly()
