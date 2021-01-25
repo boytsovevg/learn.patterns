@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using observer.weather.interfaces;
@@ -7,7 +6,7 @@ namespace observer.weather.weatherData
 {
     public class WeatherData: IWeatherSubject
     {
-        private IList<IWeatherObserver> _observers;
+        private readonly IList<IWeatherObserver> _observers;
 
         private float _temperature;
         private float _humidity;
