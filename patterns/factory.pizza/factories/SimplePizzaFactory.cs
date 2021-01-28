@@ -1,6 +1,6 @@
-using System;
+using factory.pizza.pizza;
 
-namespace factory.pizza.pizza
+namespace factory.pizza.factories
 {
     public class SimplePizzaFactory
     {
